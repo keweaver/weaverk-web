@@ -1,0 +1,128 @@
+import Head from 'next/head'
+import Image from 'next/image'
+import { Inter } from '@next/font/google'
+import styles from '@/styles/Home.module.css'
+import Draggable from 'react-draggable'
+const inter = Inter({ subsets: ['latin'] })
+
+export default function Home() {
+  return (
+    <div>
+      <Head>
+
+        <link rel="stylesheet" href="globals.css" />
+        <title>ke.weaver</title>
+
+        <meta name="intro page to my website" content="web-home"></meta>
+        <meta name="ke.weaver" content="ke.weaver"></meta>
+      </Head>
+
+      <body>
+
+        <div className="col-wrapper">
+          <div className="left-col">
+            <div className="name">
+              <h1>KEL.</h1>
+              <h2>weaver</h2>
+            </div>
+
+            <div className="links">
+              <li>research stuff</li>
+              <li>art stuff</li>
+              <li>computer stuff</li>
+            </div>
+          </div>
+
+
+          <div className="right-col">
+            <div className="box-outer">
+              <div className="box-symbols">
+                <p>- [] x | intro.txt</p>
+              </div>
+              <div className="box-inner">
+                <p>"hello and welcome! im kel. if you want to get to know me ,</p>
+                <p>
+                  "in less important news, im a computer science and environmental sustainability sciences
+                  student at northeastern in boston, massachuesetts (massachuessts? mass). computer science
+                  is an incredibly powerful tool and im passionate about making sure it is used correctly.
+                  i hope to be able to use coding as tool to generate solutions for sustainability
+                  problems . i love the earth and i love tinkering . "
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="box-outer">
+            <div className="box-symbols">
+              <p>- [] x | timegraphic.gif</p>
+            </div>
+            <div className="box-inner">
+              <div className="time-photo">
+                <p>morning - midday - sunset - nighttime</p>
+                <a
+                  href="https://www.google.com/maps/@37.9611691,-78.9007216,3a,90y,24.01h,88.07t/data=!3m8!1e1!3m6!1sAF1QipOF7yEPcXwvPH6tsFTotucRVFJSPHaq4PbmrfHa!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOF7yEPcXwvPH6tsFTotucRVFJSPHaq4PbmrfHa%3Dw203-h100-k-no-pi-0-ya37.999996-ro-0-fo100!7i8704!8i4352">
+                  <img src="middaygif.gif" alt="click me!" />
+                </a>
+                <p>we're glad to know you :</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="box-outer">
+            <div className="box-symbols">
+              <p>- [] x | testimonials.txt</p>
+            </div>
+            <div className="box-inner">
+              <div className="testimonials">
+                <p>[archie wrote a testimonial before me so now i have to best him... if you haven't seen kel
+                  just picture a highland cow that winks really slowly and can play a MEAN fiddle. they won't leave my house (help)
+                  but that's okay] -ula
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="box-outer">
+            <div className="box-symbols">
+              <p>- [] x | testimonials.txt</p>
+            </div>
+            <div className="box-inner">
+              <div className="testimonials">
+                <p>[meow meow meow, meow meow meow meow. meow! meow meow meow meow meow meow. meow, meow] -meow
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="box-outer">
+            <div className="box-symbols">
+              <p>- [] x | testimonials.txt</p>
+            </div>
+            <div className="box-inner">
+              <div className="testimonials">
+                <p>[kel is consistently calm, coolheaded, creative, compassionate, combining code,
+                  causing chaos, choosing ckindness, cooking cookies!] -archie
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="box-outer">
+            <div className="box-symbols">
+              <p>- [] x | advice.txt</p>
+            </div>
+            <div className="box-inner">
+              <div className="advice_box">
+                <p>click me for some advice: </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </div>
+  )
+}
