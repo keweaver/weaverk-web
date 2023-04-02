@@ -48,10 +48,10 @@ export default function Home() {
                 <img src="hat.png" width="150px"></img>
             </Draggable>
             <Draggable>
-                <img src="brownhat.png" width="125px"></img>
+                <img src="brownhat.PNG" width="125px"></img>
             </Draggable>
             <Draggable>
-                <img src="redgloveone.png" width="115px"></img>
+                <img src="redgloveone.PNG" width="115px"></img>
             </Draggable>
                 
         </div>
