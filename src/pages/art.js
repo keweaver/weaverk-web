@@ -38,7 +38,7 @@ const fpx = [
 
 const artworks = [
   "underpaint.jpg",
-  "jars.png",
+  "jars.PNG",
   "jar1.jpg",
   "jar2.jpg",
   "jar3.jpg",
