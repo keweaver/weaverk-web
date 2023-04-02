@@ -36,7 +36,17 @@ const fpx = [
   "150px"
 ]
 
+const artworks = [
+  "underpaint.jpg",
+  "jars.png",
+  "jar1.jpg",
+  "jar2.jpg",
+  "jar3.jpg",
+  "jar4.jpg"
+]
+
 var num = 0;
+var anum = 0;
 var tulip_num = 0;
 var f_num = 0; 
 const randomFiddleJoke = () => {
@@ -61,6 +71,7 @@ var num = 0;
 
 export default function Home() {
   const [fpsN, setFps] = useState("fps1.png");
+  const [art, setArt] = useState("underpaint.jpg");
   const [fiddleJoke, setFiddleJoke] = useState();
   const [crochetPic, setCrochet] = useState();
   const [tulip, setTulip] = useState();
@@ -80,6 +91,15 @@ export default function Home() {
     const curfps = fps[num];
     num = num + 1;
     setFps(curfps);
+  };
+
+  const changeArt = () => {
+    if (anum == artworks.length) {
+      anum = 0;
+    };
+    const curart = artworks[anum];
+    anum = anum + 1;
+    setArt(curart);
   };
 
   const changeCrochet = () => {
@@ -111,8 +131,6 @@ export default function Home() {
     }, 10000000000);
     return () => clearInterval(interval);
   }, []);
-
-
 
 
   useEffect(() => {
@@ -220,7 +238,10 @@ export default function Home() {
                   <h4>- [] x | gallery.paint</h4>
                 </div>
                 <div className="box-inner">
-                  <img src="underpaint.jpg" width="300"></img>
+
+                  <a href="javascript:void(0)" onClick={changeArt}>
+                    <img src={art} width="300"></img>
+                </a>
                 </div>
               </div>
             </Draggable>
@@ -286,10 +307,9 @@ export default function Home() {
                   ive been working on crochet for a while! my learning curve is more like a
                   learning ant hill- i am pretty slow at improvement.
                 </p>
-                <a href="javascript:void(0)" onClick={changeCrochet} >
+                <a href="/dressup">
                   view my crochet
-                </a >
-                <img src={crochetPic} width="200"></img>
+                </a>
               </div>
             </div>
           </Draggable>

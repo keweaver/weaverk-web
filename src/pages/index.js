@@ -20,6 +20,7 @@ const testimonials = [
   "[best roommate ever, mad decorating skills, good hair bleacher, 11/10 human being :D -kristina]",
   "[I am a huge fan of both Kel and the bread they are always baking and then leaving at home. If I was giving a prize for most forgetful I would give it to Kel, but if I had a prize for most kind they would also win. -indigo]",
   "[Kel is walking joy! I would give them my first born child. -isabel]",
+  "[Knowing Kel is like sitting at a cozy campfire on summer evening, except they have bad grammar. Interpret as you will! -L]",
   "[big kel fan over here... i've heard they make great bread (they keep forgetting to bring it to my house) and i know they are the most incredible person. 11/10 would recommend-katie :D]",
   "[to know kel is to love them. their kindness and generosity is contagious and it is an absolute joy to be around them. - margot <3]",
   "[meow meow meow, meow meow meow meow. meow! meow meow meow meow meow meow. meow, meow] -meow]",
@@ -200,7 +201,7 @@ export default function Home() {
                       <a href="javascript:void(0)" onClick={setMiddayGif}> midday - </a >
                       <a href="javascript:void(0)" onClick={setSunsetGif}> sunset - </a >
                       <a href="javascript:void(0)" onClick={setNightGif}> nighttime</a >
-                      <a href="https://www.google.com/maps/@37.9611691,-78.9007216,3a,90y,24.01h,88.07t/data=!3m8!1e1!3m6!1sAF1QipOF7yEPcXwvPH6tsFTotucRVFJSPHaq4PbmrfHa!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOF7yEPcXwvPH6tsFTotucRVFJSPHaq4PbmrfHa%3Dw203-h100-k-no-pi-0-ya37.999996-ro-0-fo100!7i8704!8i4352">
+                      <a href="https://www.google.com/maps/@37.9611691,-78.9007216,3a,90y,285.17h,87.09t/data=!3m8!1e1!3m6!1sAF1QipOF7yEPcXwvPH6tsFTotucRVFJSPHaq4PbmrfHa!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOF7yEPcXwvPH6tsFTotucRVFJSPHaq4PbmrfHa%3Dw203-h100-k-no-pi-0-ya37.999996-ro-0-fo100!7i8704!8i4352">
                         <img src={gif} alt="click me!" />
                       </a>
                   <p>we're glad to know you!</p>
