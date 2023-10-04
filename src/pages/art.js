@@ -213,6 +213,7 @@ export default function Home() {
                 <p>
                   & theres no such thing as talent
                 </p>
+                <p>view my artwork <a href="\gallery">here</a>!!</p>
               </div>
             </div>
           </Draggable>
@@ -235,12 +236,11 @@ export default function Home() {
             <Draggable>
               <div className="box-outer">
                 <div className="box-symbols">
-                  <h4>- [] x | gallery.paint</h4>
+                 <h4>- [] x | gallery.psd</h4>
                 </div>
                 <div className="box-inner">
-
-                  <a href="javascript:void(0)" onClick={changeArt}>
-                    <img src={art} width="300"></img>
+                  <a href="/gallery">
+                    <img src="margot.jpg" width="300"></img>
                 </a>
                 </div>
               </div>
@@ -269,7 +269,7 @@ export default function Home() {
                   </div>
                   <div className="box-inner">
                     <p>
-                      i run a radio show (currently at 4pm eastern time every sunday) on WRBB 104.9FM.
+                      i run a radio show (currently at 2pm eastern time every monday) on WRBB 104.9FM.
                       called front porch storytelling, it's a weekly hour long show on the history, stories, and
                       evolution of old-time to bluegrass to country music, and other country subgenres! here's some fliers i've made
                       for the show- feel free to click through them to get an idea of what i talk to myself about for an hour every week {'>>>>'}

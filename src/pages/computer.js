@@ -73,8 +73,8 @@ export default function Home() {
                                     all jokes aside, it is true that i'm not technology's number one fan. while i think it
                                     is fascinating , and while i love the ability to build things and solve problems through programming ,
                                     i believe that technology is an incredibly powerful tool and using it responsibly should be
-                                    everyone who is involved's number one concern moving into the future. tech has a lot of potential,
-                                    good and bad , and as much passion that goes into inventing new cool tech advancements
+                                    everyone's number one concern moving into the future. tech has a lot of potential,
+                                    good and bad, and as much passion that goes into inventing new cool tech advancements
                                     needs to go into the evaluation of the impacts of the things that we are creating.
                                 </p>
                                 <h4>what are you creating ? and do you remember why ? and do you love it ? and will it love you?</h4>
