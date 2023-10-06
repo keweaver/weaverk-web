@@ -70,19 +70,19 @@ export default function Home() {
 
   const currentGif = () => {
     const time = new Date().getHours();
-    if (time > 0 && time < 5) {
+    if (time > 0 && time < 6) {
       setGif("night.gif")
     }
-    else if (time >= 5 && time < 7) {
+    else if (time >= 6 && time < 9) {
       setGif("morning.gif")
     }
-    else if (time >= 7 && time < 17) {
+    else if (time >= 9 && time < 17) {
       setGif("middaygif.gif")
     }
-    else if (time >= 17 && time < 19) {
+    else if (time >= 17 && time < 20) {
       setGif("sunset.gif")
     }
-    else if (time >= 19 && time <= 23) {
+    else if (time >= 20 && time <= 23) {
       setGif("night.gif")
     }
     else {
