@@ -100,7 +100,7 @@ const changeArt = () => {
             
           {showColor && <div className="img_grid">
             <Draggable><div className="img_desc">
-              <img src="margot.JPG" width="500"></img>
+              <img src="margot.jpg" width="500"></img>
               <p>margot</p>
               <p>oil on canvas</p>
             </div></Draggable>
