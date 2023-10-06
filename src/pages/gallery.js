@@ -73,7 +73,7 @@ const changeArt = () => {
           </button>
           {show && <div className="img_grid">
           <Draggable><div className="img_desc"> <img src="paulsbarninvert.png" width="400"></img><p>barn dance flyer blank</p><p>stamp & ink print on paper</p></div></Draggable>
-          <Draggable><div className="img_desc"> <p>a man going to dance</p><p>charcoal on paper</p><img src="IMG-4937.jpg" width="300"></img></div></Draggable>
+          <Draggable><div className="img_desc"> <p>a man going to dance</p><p>charcoal on paper</p><img src="IMG-4937.JPG" width="300"></img></div></Draggable>
 
           <Draggable><div className="img_desc"> <img src="bugcollective.jpg" width="450"></img><p>bug fight flyer</p><p>stamp & ink, pen on paper</p></div></Draggable>
 
@@ -104,18 +104,19 @@ const changeArt = () => {
               <p>margot</p>
               <p>oil on canvas</p>
             </div></Draggable>
-            <Draggable><div className="img_desc"><img src="smallcity.JPG" width="450"></img><p>small city</p><p>oil on canvas</p></div></Draggable>
+            <Draggable><div className="img_desc"><img src="smallcity.jpg" width="450"></img><p>small city</p><p>oil on canvas</p></div></Draggable>
+            <Draggable><div className="img_desc"><p>saint francis</p><p>oil on canvas</p><img src="ren.jpg" width="700"></img></div></Draggable>
+            <Draggable><div className="img_desc"><img src="underpaint.jpg" width="400"></img> <p>underpainting</p><p>acrylic on canvas</p></div></Draggable>
 
-            <Draggable><div className="img_desc"><p>unfinished 2019</p><p>acrylic on canvas</p><img src="faces2.JPG" width="400"></img> </div></Draggable>
-            <Draggable><div className="img_desc"><p>underpainting</p><p>acrylic on canvas</p><img src="underpaint.JPG" width="400"></img> </div></Draggable>
+            <Draggable><div className="img_desc"><p>unfinished 2019</p><p>acrylic on canvas</p><img src="faces2.jpg" width="400"></img> </div></Draggable>
 
-            <Draggable><div className="img_desc"><img src="turnipno2.JPG" width="350"></img><p>i dreamed of augusta</p><p>acrylic on canvas</p></div></Draggable>
+            <Draggable><div className="img_desc"><img src="turnipno2.jpg" width="350"></img><p>i dreamed of augusta</p><p>acrylic on canvas</p></div></Draggable>
 
-            <Draggable><div className="img_desc"><img src="IMG-7378-COLLAGE.JPG" height="600"></img> <p>behind an outhouse</p><p>camera</p></div></Draggable>
+            <Draggable><div className="img_desc"><img src="IMG-7378-COLLAGE.jpg" height="600"></img> <p>behind an outhouse</p><p>camera</p></div></Draggable>
 
-            <Draggable><div className="img_desc"><img src="kelwsubmission1.JPG" width="300"></img> <p>creation as love</p><p>acrylic and pen on paper</p></div></Draggable>
-            <Draggable><div className="img_desc"><img src="kelwsubmission4.JPG" width="300"></img> <p>love as creation</p><p>acrylic and pen on paper</p></div></Draggable>
-            <Draggable><div className="img_desc"><img src="print1.JPG" width="250"></img> <p>wind&rain</p><p>print on paper</p></div></Draggable>
+            <Draggable><div className="img_desc"><img src="kelwsubmission1.jpg" width="300"></img> <p>creation as love</p><p>acrylic and pen on paper</p></div></Draggable>
+            <Draggable><div className="img_desc"><img src="kelwsubmission4.jpg" width="300"></img> <p>love as creation</p><p>acrylic and pen on paper</p></div></Draggable>
+            <Draggable><div className="img_desc"><img src="print1.jpg" width="250"></img> <p>wind&rain</p><p>print on paper</p></div></Draggable>
 
           </div>}
           
