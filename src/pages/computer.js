@@ -62,22 +62,18 @@ export default function Home() {
                     <Draggable>
                         <div className="box-outer tech">
                             <div className="box-symbols">
-                                <h4>- [] x | languages.py</h4>
+                                <h4>- [] x | README.md</h4>
                             </div>
                             <div className="box-inner">
-                                <p>when i get asked why i chose a CS major, i sometimes joke that my dad
-                                    showed me too many 'AI Take Over The World' videos and sci-fi movies when I was a kid and it scared
-                                    me into wanting to understand what a computer was .
+                                <p>ヾ( • ෴ •*)〴 ヾ( • ෴ •*)〴 ヾ( • ෴ •*)〴 ヾ( • ෴ •*)〴 </p>
+                                <p> in march 2024, an older gardener at the annual Boston garden convention asked me my major. i told her, computer science and 
+                                    environmental science. "Goodness," she said, "you're not going to put AI in the plants, right?"
                                 </p>
                                 <p>
-                                    all jokes aside, it is true that i'm not technology's number one fan. while i think it
-                                    is fascinating , and while i love the ability to build things and solve problems through programming ,
-                                    i believe that technology is an incredibly powerful tool and using it responsibly should be
-                                    everyone's number one concern moving into the future. tech has a lot of potential,
-                                    good and bad, and as much passion that goes into inventing new cool tech advancements
-                                    needs to go into the evaluation of the impacts of the things that we are creating.
+                                    i'm currently wondering if everything needs a double
                                 </p>
-                                <h4>what are you creating ? and do you remember why ? and do you love it ? and will it love you?</h4>
+                                <p>   </p>
+                                <h4>〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 </h4>
                             </div>
                         </div>
                     </Draggable>
@@ -99,11 +95,38 @@ export default function Home() {
                     <Draggable>
                         <div className="box-outer">
                             <div className="box-symbols">
+                                <h4>- [] x | penguins.py</h4>
+                            </div>
+                            <div className="box-inner">
+                                <h3>penguin tracker</h3>
+                                <p>python, influxdb. automatic signal processing & live update dashboards</p><p>for RFID tags 
+                                    used on penguins in antartica
+                                </p>
+                            </div>
+                        </div>
+                    </Draggable>
+
+                    <Draggable>
+                        <div className="box-outer">
+                            <div className="box-symbols">
+                                <h4>- [] x | deadend.py</h4>
+                            </div>
+                            <div className="box-inner">
+                                <h3>link rot mapping</h3>
+                                <p>python. crawler that detects link rot. 
+                                </p>
+                            </div>
+                        </div>
+                    </Draggable>
+
+                    <Draggable>
+                        <div className="box-outer">
+                            <div className="box-symbols">
                                 <h4>- [] x | pshop.java</h4>
                             </div>
                             <div className="box-inner">
                                 <h3>my personal photoshop</h3>
-                                <p>java, java gui. load, edit, save images</p>
+                                <p>java, java gui. load, transform, save images</p>
                             </div>
                         </div>
                     </Draggable>
@@ -178,8 +201,7 @@ export default function Home() {
                 <div className='flower'>
                     <img src="flower1.PNG" height="200px" />
                 </div>
-                <h1>made with love and mint tea and copious amounts of help from
-                    <a href="https://www.ulabit.dev/"> ula bitinaitis</a> by kel weaver, 2023
+                <h1>made with love and mint tea by kel weaver, 2023
                 </h1>
                 <p>footer joke from a friend: do you know why i dont trust trains?</p>
                 <p>they have locomotives!</p>

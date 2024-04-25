@@ -67,61 +67,36 @@ export default function Home() {
                 <h4>- [] x | allofmyresearch.txt</h4>
               </div>
               <div className="box-inner">
-                <p>when i was around fifteen, i joined the cognitive neuroimaging lab at montclair state university, 
-                    under head professor Dr. keenan. our lab used Transcranial Magnetic Stimulation (TMS) to map functions like
-                     perspective taking, Theory of Mind, and perception to parts of the brain. 
-                     around this time, i also attended lab meetings at the congition and perception lab at New York University
-                     for a brief while, focused more on object recognition and neuroaesthetics. unfortunately, my individual 
-                     project on art style processing in the default mode network vs. the left occipital cortex was cancelled 
-                     due to covid, haha. 
+              <h5>marine animal remote sensing lab</h5>
+                <h4>woods hole oceanograpic institute, 2024-current</h4>
+                <p>i'm currently working at WHOI's MARS lab under the elusive Dr. Zitterbart. mostly, i'm building a codebase 
+                  that allows for flexible, autonomous, and accurate signal detection for RHF transmitters that we stick on 
+                  penguins in antartica. 
                 </p>
-                <p>
-                    though neuroscience is not my particular passion, i am so grateful to everyone in the 
-                     labs (especially Dr. Keenan) for introducing me to research and its processes. i'm now studying 
-                     computer science and environmental science, and hope now explore the field of collection, analysis, 
-                     and display of environmental data using code. i worked on a project analyzing air quality data from 
-                     some low-cost sensors along Cummins Highway in Boston.
+                
+                <h5>environmental sensors lab</h5>
+                <h4>northeastern univeristy, 2022-2024</h4>
+                <p>with the guidance of the incredible Dr. Mueller, I investigated and corrected the effects of environmental 
+                  parameters on particulate matter by low-cost air quality sensors. during this project, I wrote a python repo to collect,
+                  display, and apply a variety of ML correction models to relevant environemntal data. 
                 </p>
+                <h5>cognitive neuroimaging lab</h5>
+                <h4>montclair state university, 2019-2021</h4>
+                <p>under the wonderful PI Dr. Keenan, i was introduced to research through the use of Transcranial Magnetic Stimulation (TMS)
+                  for brain mapping. here, i assisted on a variety of projects around central themes of perspective taking,
+                  Theory of Mind, object recognition and neuroaesthetics. 
+                </p>
+                
               </div>
             </div>
           </Draggable>
 
-          <Draggable>
-            <div className="box-outer pics">
-              <div className="box-symbols">
-                <h4>- [] x | portraits.jpg</h4>
-              </div>
-              <div className="box-inner">
-              <a href="javascript:void(0)" onClick={changePic}>
-                    <img src={pic} width="150"></img>
-                </a>
-              </div>
-            </div>
-          </Draggable>
+          
         </div>
 
         <div className="right-col">
 
-          <Draggable>
-            <div className="box-outer mueller">
-              <div className="box-symbols">
-                <h4>- [] x | envsensorslab.py</h4>
-              </div>
-              <div className="box-inner">
-                <p>starting around fall of 2022, i worked on a project at Dr. Mueller's <a href="https://www.northeastern.edu/envsensorslab/"> environmental sensors lab</a> here at Northeastern. to summarize , 
-                    the city of boston set up a bunch of cheap air quality sensors along a highway 
-                    with the goal of knowing how accurate they are and what they can tell the city and 
-                    its people about air quality and city design . these sensors had a built in method to 
-                    measure pm2.5 data which made an assumption that temp and humidity wouldn't have an effect on the 
-                    measurement. Dr. Mueller suspected that this was wrong , since pm2.5 tends to stick together 
-                    in certain weather conditions . i helped check out the clarity sensor data, compare it to 
-                    a super expensive EPA station over different temp/humidity measurements, and test out 
-                    machine learning algorithms to see if there was a better way to correct for environmental noise . 
-                    if you have any questions, feel free to reach out ! 
-                </p>
-              </div>
-            </div>
-          </Draggable>
+         
 
         <Draggable>
             <div className="box-outer publications">
@@ -138,14 +113,41 @@ export default function Home() {
               </div>
             </div>
           </Draggable>
+          <div>
+          
+          <Draggable>
+            <div className="box-outer pics">
+              <div className="box-symbols">
+                <h4>- [] x | radio_seal.wav</h4>
+              </div>
+              <div className="box-inner">
+              
+                    <img src="seal.jpg" height="250"></img>
+              </div>
+            </div>
+          </Draggable>
+          <Draggable>
+            <div className="box-outer pics">
+              <div className="box-symbols">
+                <h4>- [] x | portraits.jpg</h4>
+              </div>
+              <div className="box-inner">
+              <a href="javascript:void(0)" onClick={changePic}>
+                    <img src={pic} width="150"></img>
+                </a>
+              </div>
+            </div>
+          </Draggable>
+          </div>
+          
+          
           </div>
         </div>
         <footer>
         <div className='flower'>
           <img src="flower1.PNG" height="200px"/>
         </div>
-        <h1>made with love and mint tea and copious amounts of help from 
-          <a href="https://www.ulabit.dev/"> ula bitinaitis</a> by kel weaver, 2023
+        <h1>made with love and mint tea by kel weaver, 2023
         </h1>
         <p>footer joke from a friend: do you know why i dont trust trains?</p>
         <p>they have locomotives!</p>
