@@ -66,28 +66,20 @@ export default function Home() {
                             </div>
                             <div className="box-inner">
                                 <p>ヾ( • ෴ •*)〴 ヾ( • ෴ •*)〴 ヾ( • ෴ •*)〴 ヾ( • ෴ •*)〴 </p>
-                                <p> in march 2024, an older gardener at the annual Boston garden convention asked me my major. i told her, computer science and 
-                                    environmental science. "Goodness," she said, "you're not going to put AI in the plants, right?"
+                                <p> i make a lot of doubles of things: radios, electrical lines, wind, dust 
                                 </p>
-                                <p>
-                                    i'm currently wondering if everything needs a double
-                                </p>
-                                <p>   </p>
                                 <h4>〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 〈ꆤ⍸ꆤ〉 </h4>
                             </div>
                         </div>
                     </Draggable>
-
-
-                    
                     <Draggable>
                         <div className="box-outer">
                             <div className="box-symbols">
-                                <h4>- [] x | corn.java</h4>
+                                <h4>- [] x | air.py</h4>
                             </div>
                             <div className="box-inner">
-                                <h3>cornmaze runner</h3>
-                                <p>java. breadth/depth first search auto generated maze solver</p>
+                                <a href="/research"><h3>clarity air quality analysis </h3></a>
+                                <p>python, pandas, numpy, sklearn</p>
                             </div>
                         </div>
                     </Draggable>
@@ -106,45 +98,27 @@ export default function Home() {
                         </div>
                     </Draggable>
 
+                    
                     <Draggable>
                         <div className="box-outer">
                             <div className="box-symbols">
-                                <h4>- [] x | deadend.py</h4>
+                                <h4>- [] x | corn.java</h4>
                             </div>
                             <div className="box-inner">
-                                <h3>link rot mapping</h3>
-                                <p>python. crawler that detects link rot. 
-                                </p>
+                                <h3>cornmaze runner</h3>
+                                <p>java. breadth/depth first search auto generated maze solver</p>
                             </div>
                         </div>
                     </Draggable>
 
-                    <Draggable>
-                        <div className="box-outer">
-                            <div className="box-symbols">
-                                <h4>- [] x | pshop.java</h4>
-                            </div>
-                            <div className="box-inner">
-                                <h3>my personal photoshop</h3>
-                                <p>java, java gui. load, transform, save images</p>
-                            </div>
-                        </div>
-                    </Draggable>
 
-                    <Draggable>
-                        <div className="box-outer">
-                            <div className="box-symbols">
-                                <h4>- [] x | air.py</h4>
-                            </div>
-                            <div className="box-inner">
-                                <a href="/research"><h3>clarity air quality analysis </h3></a>
-                                <p>python, pandas, numpy, sklearn</p>
-                            </div>
-                        </div>
-                    </Draggable>
+                    
+
+                    
                 </div>
 
                 <div className="tech-mid2-col">
+                
 
                 
 
@@ -156,6 +130,7 @@ export default function Home() {
                 </div>
 
                 <div className='tech-right-col'>
+                    
                     <Draggable>
                         <div className="box-outer tulip">
                             <div className="box-symbols">
@@ -163,6 +138,17 @@ export default function Home() {
                             </div>
                             <div className="box-inner">
                                 <img src="sit.gif" width="250"></img>
+                            </div>
+                        </div>
+                    </Draggable>
+                    <Draggable>
+                        <div className="box-outer">
+                            <div className="box-symbols">
+                                <h4>- [] x | pshop.java</h4>
+                            </div>
+                            <div className="box-inner">
+                                <h3>my personal photoshop</h3>
+                                <p>java, java gui. load, transform, save images</p>
                             </div>
                         </div>
                     </Draggable>
@@ -201,7 +187,7 @@ export default function Home() {
                 <div className='flower'>
                     <img src="flower1.PNG" height="200px" />
                 </div>
-                <h1>made with love and mint tea by kel weaver, 2023
+                <h1>made with love and also anger by kel weaver, 2023
                 </h1>
                 <p>footer joke from a friend: do you know why i dont trust trains?</p>
                 <p>they have locomotives!</p>

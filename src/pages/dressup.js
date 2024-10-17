@@ -63,7 +63,7 @@ export default function Home() {
         <div className='flower'>
           <img src="flower1.PNG" height="200px"/>
         </div>
-        <h1>made with love and mint tea by kel weaver, 2023
+        <h1>made with love and also restlessness by kel weaver, 2023
         </h1>
         <p>footer joke from a friend: do you know why i dont trust trains?</p>
         <p>they have locomotives!</p>

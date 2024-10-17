@@ -13,12 +13,16 @@ const testimonials = [
   "[kel made me rediscover the joys of life through cornbread & honeybutter -duncan]",
   "[kel is consistently calm, coolheaded, creative, compassionate, combining code causing chaos, choosing ckindness, cooking cookies! -archie]",
   "[KEL stands for: Konstant source of joy, Exceeds my expectations in every endeavor, love of my life. :*^/]",
+  "[kel weaver is great at resetting field 4 -jeremy]",
+  "[Best Deep Springer Ever - Deep Springs President Andy Zink]",
+  "[just kidding andy zink didn't say that -kel]",
   "[Knowing Kel is like sitting at a cozy campfire on summer evening, except they have bad grammar. Interpret as you will! -L]",
   "[to know kel is to love them. their kindness and generosity is contagious and it is an absolute joy to be around them. - margot <3]",
   "[I am a huge fan of both Kel and the bread they are always baking and then leaving at home. If I was giving a prize for most forgetful I would give it to Kel, but if I had a prize for most kind they would also win. -indigo]",
   "[[archie wrote a testimonial before me so now i have to best him...] if you haven't seen kel just picture a highland cow that winks really slowly and can play a MEAN fiddle. they won't leave my house (help) but that's okay -ula]",
   "[Makes great bread and always makes my day more meow-y :3 <3]",
   "[Billy has nothing to say on the matter, and was overwhelmed by his appreciation for me -kel]",
+ 
   "[best roommate ever, mad decorating skills, good hair bleacher, 11/10 human being :D -kristina]",
   "[Kel is walking joy! I would give them my first born child. -isabel]",
   "[big kel fan over here... i've heard they make great bread (they keep forgetting to bring it to my house) and i know they are the most incredible person. 11/10 would recommend-katie :D]",
@@ -107,7 +111,6 @@ export default function Home() {
             <a href="/index">
             <h1>KEL.</h1> <h2>weaver</h2>
             </a>
-            <p className='pronouns_lol'>they/them</p>
 
           </div>
 
@@ -125,24 +128,22 @@ export default function Home() {
                 <h4>- [] x | intro.txt</h4>
               </div>
               <div className="box-inner">
-                <p>"hello and welcome! im kel. if you want to get to know me, i would love to get to know you.
+                <p>hello and welcome! im kel. if you want to get to know me, i would love to get to know you.
                 </p>
                 <p>
-                  "i'm currently a computer science and environmental sustainability sciences
-                  student at northeastern in boston, massachuesetts (massachuessts? mass). i specialize in  
-                 the field of environemntal sensor development,
-                  and i aim to continue developing ways for us to understand and help our changing environment. 
-                  or maybe I'll just fall off the face of the planet in a couple years. you know, 
-                  which ever way the biscuit breaks. 
+                  i'm a student at deep springs college
+              
+                </p>
+                <p>also, i can code</p>
+                <p>
+                *  / \_ *  / \_      _  *        *   /\'__        *
+                    /    \  /    \,   vv     .    _/  /  \  *'.
+              .   /\/\  /\/ :' __ \_  `          _^/  ^/    `--.
+                  /    \/  \  _/  \-'\      *    /.' ^_   \_   .'\  *
+                /\  .-   `. \/     \ /==~=-=~=-=-;.  _/ \ -. `_/   \
+              /  `-.__ ^   / .-'.--\ =-=~_=-=~=^/  _ `--./ .-'  `-
+              /jgs     `.  / /       `.~-^=-=~=^=.-'      '-._ `._
 
-                </p>
-                <p>
-                  about this website- you can drag and click on a lot of stuff ! all the links for sure are
-                  clickable, you can drag these fake application windows around, and most of the gifs or images can 
-                  also be clicked . currently if you're on mobile, it lets you drag everything but not click the links
-                  since your phone registers a tap as a drag- working on fixing this and for the full experience, laptop 
-                  might be better! have fun and know that however much fun you have , i had twice as much fun 
-                  making it for you."
                 </p>
               </div>
             </div>
@@ -163,20 +164,6 @@ export default function Home() {
                     {test}
                     </p>
                     </a >
-                  </div>
-                </div>
-              </div>
-            </Draggable>
-
-            <Draggable>
-              <div className="box-outer bread">
-                <div className="box-symbols">
-                  <p>- [] x | bread.exe</p>
-                </div>
-                <div className="box-inner">
-                  <div className="bread-box">
-                    <p>try out my <a href="https://docs.google.com/document/d/1qNBZSG3nfc_zMkDL9os0c4fB2IgZKLLWKeex-YcnLKs/edit">bread recipe !!</a></p>
-                   
                   </div>
                 </div>
               </div>
@@ -239,7 +226,7 @@ export default function Home() {
         <div className='flower'>
           <img src="flower1.PNG" height="200px"/>
         </div>
-        <h1>made with love and mint tea by kel weaver, 2023
+        <h1>made with love and also hate by kel weaver, 2024
         </h1>
         <p>footer joke from a friend: do you know why i dont trust trains?</p>
         <p>they have locomotives!</p>

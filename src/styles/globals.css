@@ -162,7 +162,7 @@ footer a {
 
 .testimonials a { 
   text-decoration: none;
-  color: green;
+  color: blue;
 }
 
 .timegraphic {
@@ -177,7 +177,7 @@ footer a {
   padding-bottom: 4%; 
   text-decoration: underline;
   text-align: center;
-  text-decoration-color: green;
+  text-decoration-color: blue;
   color: black;
 }
 
@@ -238,7 +238,7 @@ footer {
 
 .fiddle-desc a {
   text-decoration: underline; 
-  color: green; 
+  color: blue; 
 }
 
 .fiddle-desc p {
@@ -256,6 +256,7 @@ footer {
 
 .art-mid-col {
   padding-right: 3%;
+  flex-grow: 1; 
 }
 
 .radio {
@@ -275,9 +276,22 @@ footer {
   height: 50%;
 }
 
-.art-description .box-inner{
-  padding: 3%;
+.art-mid2-col {
+  width: 100%; 
 }
+
+.art-description .box-outer {
+  width: fit-content;
+  padding: 5%; 
+}
+
+.art-description p {
+  padding-left: 5%; 
+  padding-right: 5%; 
+  width: 100%;
+
+}
+
 
 .tulip .box-symbols {
   font-size: 12px; 
@@ -326,7 +340,6 @@ footer {
 }
 
 .pics {
-  font-size: 10px;
 }
 
 .mueller p {

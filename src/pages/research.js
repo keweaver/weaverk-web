@@ -62,6 +62,18 @@ export default function Home() {
 
         <div className='mid-col-research'>
         <Draggable>
+            <div className="box-outer pics">
+              <div className="box-symbols">
+                <h4>- [] x | statement.txt</h4>
+              </div>
+              <div className="box-inner">
+                <p>i like science. specifically, i like the application of computers in the environmental sciences. i'm interested
+                  in modeling, sensor development, and general dev for environmental problems. 
+                </p>
+              </div>
+            </div>
+          </Draggable>
+        <Draggable>
             <div className="box-outer research">
               <div className="box-symbols">
                 <h4>- [] x | allofmyresearch.txt</h4>
@@ -90,6 +102,7 @@ export default function Home() {
               </div>
             </div>
           </Draggable>
+          
 
           
         </div>
@@ -126,18 +139,8 @@ export default function Home() {
               </div>
             </div>
           </Draggable>
-          <Draggable>
-            <div className="box-outer pics">
-              <div className="box-symbols">
-                <h4>- [] x | portraits.jpg</h4>
-              </div>
-              <div className="box-inner">
-              <a href="javascript:void(0)" onClick={changePic}>
-                    <img src={pic} width="150"></img>
-                </a>
-              </div>
-            </div>
-          </Draggable>
+          
+          
           </div>
           
           
@@ -147,7 +150,7 @@ export default function Home() {
         <div className='flower'>
           <img src="flower1.PNG" height="200px"/>
         </div>
-        <h1>made with love and mint tea by kel weaver, 2023
+        <h1>made with love and also foresight by kel weaver, 2023
         </h1>
         <p>footer joke from a friend: do you know why i dont trust trains?</p>
         <p>they have locomotives!</p>
